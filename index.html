@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Wordle Training</title>
+    <meta name="description" content="Guess the hidden word in 6 tries. A new puzzle is available each day.">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="./style2.css" />
+  </head>
+
+  <body>
+    <div class="main-container" id="main">
+        <div id="header"><span class="wordle">WORDLE</span> Training</div>
+
+        <div id="gamearea">
+            <div id="wordboard">
+
+            </div>
+            <div id="keyboard">
+              <div class="keyrow" id="keyrow1">
+                <button class="keyboardkey" id="Q">Q</button>
+                <button class="keyboardkey" id="W">W</button>
+                <button class="keyboardkey" id="E">E</button>
+                <button class="keyboardkey" id="R">R</button>
+                <button class="keyboardkey" id="T">T</button>
+                <button class="keyboardkey" id="Y">Y</button>
+                <button class="keyboardkey" id="U">U</button>
+                <button class="keyboardkey" id="I">I</button>
+                <button class="keyboardkey" id="O">O</button>
+                <button class="keyboardkey" id="P">P</button>
+              </div>
+              <div class="keyrow" id="keyrow2">
+                <button class="keyboardkey" id="A">A</button>
+                <button class="keyboardkey" id="S">S</button>
+                <button class="keyboardkey" id="D">D</button>
+                <button class="keyboardkey" id="F">F</button>
+                <button class="keyboardkey" id="G">G</button>
+                <button class="keyboardkey" id="H">H</button>
+                <button class="keyboardkey" id="J">J</button>
+                <button class="keyboardkey" id="K">K</button>
+                <button class="keyboardkey" id="L">L</button>
+              </div>
+              <div class="keyrow" id="keyrow3">
+                <button class="keyboardkey" id="enter">Enter</button>
+                <button class="keyboardkey" id="Z">Z</button>
+                <button class="keyboardkey" id="X">X</button>
+                <button class="keyboardkey" id="C">C</button>
+                <button class="keyboardkey" id="V">V</button>
+                <button class="keyboardkey" id="B">B</button>
+                <button class="keyboardkey" id="N">N</button>
+                <button class="keyboardkey" id="M">M</button>
+                <button class="keyboardkey" id="delete"> ← Del </button>
+              </div>
+            </div>
+
+        </div>
+        <div class="playmode" id="gametype"></div>
+        <div class="wordchoices" id="wordbuttons">
+          <button id="randomword">Random Word Generator</button>
+          <button id="wordoftheday">Word of the Day</button>
+        </div>
+        
+    </div>
+
+
+   <script src="./script.js"></script>
+</body>
+
+</html>
