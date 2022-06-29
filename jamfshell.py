@@ -17,10 +17,10 @@ def get_uapi_token():
     global loggedIn
     jamf_test_url = jamf_hostname + "/api/v1/auth/token"
     headers = {'Accept': 'application/json', }
-    # jamf_user = input("Enter Jamf Username: ")
-    # jamf_password = getpass.getpass("Enter Password for user " + jamf_user + " : ")
-    jamf_user = jamfcreds.readonly_username
-    jamf_password = jamfcreds.readonly_password
+    jamf_user = input("Enter Jamf Username: ")
+    jamf_password = getpass.getpass("Enter Password for user " + jamf_user + " : ")
+    # jamf_user = jamfcreds.readonly_username
+    # jamf_password = jamfcreds.readonly_password
     response = requests.post(url=jamf_test_url, headers=headers, auth=(jamf_user, jamf_password))
     
     if response.status_code == 200:
