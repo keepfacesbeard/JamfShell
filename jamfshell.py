@@ -4,7 +4,7 @@ from tabulate import tabulate
 import os
 import pandas as pd
 # import numpy as np
-import jamfcreds
+# import jamfcreds
 
 jamf_hostname = "https://reedcollege.jamfcloud.com"
 
