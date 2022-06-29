@@ -6,7 +6,7 @@ import pandas as pd
 # import numpy as np
 # import jamfcreds
 
-jamf_hostname = "https://reedcollege.jamfcloud.com"
+jamf_hostname = "https://YOURDOMAIN.jamfcloud.com"
 
 print("<<<<  Welcome to Jamf in a Shell >>>>")
 
