@@ -699,37 +699,3 @@ if __name__ == '__main__':
 
 
 
-
-## INDIVIDUAL FUNCTION TESTS ####
-# fetch Jamf Pro (ex-universal) api token
-# api_token = get_uapi_token()
-
-# searchEAScriptsByString("python", True)
-
-# print(getEAScriptContents(71))
-# moreCompInfo(2139,'groups')
-# print("Number of Devices in Inventory:")
-# inventoryCounts()
-# computerSearch("tater
-# computerList()
-# computerSearch("macbook")
-# invalidate_uapi_token(api_token)
-# policyInfo(49)
-# policiesByGroup(87)
-# print(getGroupNameByID(87))
-# printGroupList()
-# searchGroupByName('bio')
-# print(computerInfo("2139"))
-# print(searchScriptByString('osascript -e'))
-# data=getAppUsage(2139, "2022-01-01","2022-04-01")
-# parseAppUsage(data, 'Slack.app')
-# print(listComputersInGroup(356))
-# appUse=groupAppUsage(189, 'InDesign', '2021-01-01', '2022-04-19')
-# exportAppUsage(appUse, 'test1.csv')
-# appUse.sort()
-# print(tabulate(appUse, ["Date", "App Usage"]))
-# listAllConfigProfiles()
-# configProfileScope(144)
-# configProfilesByGroup(189, True)
-
-
