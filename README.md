@@ -43,6 +43,8 @@ First Build: March 2022
     This will list all configuration profiles scoped to a particular group. It requires the Group ID number for the group in question, which can be retrieved via the Group Search by Name function. Basically the same as the group-policy function, but with config profiles. Outputs to csv if you want, with ID numbers and config profile names.
 + Search all Scripts by String ("script-string"):
     Will search all scripts in your Jamf Pro instance for a particular string. Spaces and special characters should be fine, but best to avoid any quotation marks or escape characters in the search field (there is not any checking/error handling for that kind of thing yet). Outputs list of Scripts that have that string in the body of the script. Prompts to output results list to file if you wish.
++ Search all Extension Attributes by String ("extension-string"):
+    Same as script string search but for Extension Attributes that are a script type.
 + Get App Usage for an Application by Group ("group-app-usage"):
     Will total app usage for all computers in a group for a particular application in a given date range. Inputs are the Group ID, start and end dates (YYYY-MM-DD format), and a string for the application name. Partial strings will come up with matches, so this can save you some time if you just search 'Chrome' instead of 'Google Chrome.app', but be warned that if you search 'Adobe' it will return results for all apps with Adobe in the name, so more specificity will lead to more accuracy. Outputs total usage across all computers in minutes, by day, so you can chart daily usage, or just sum the total in a spreadsheet.
 + List all Groups ("group-list"):
